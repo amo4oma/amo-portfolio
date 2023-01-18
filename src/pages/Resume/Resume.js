@@ -5,8 +5,8 @@ import Button from "react-bootstrap/Button";
 import Resumecontent from "./ResumeContent";
 import "../../../styles/style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import axios from "axios";
-import pdf from "../../Assets/AHMED-OBAD-CV-Oct2020.pdf";
+
+
 import Layout from "../../components/Layout";
 
 function Resume() {
@@ -16,7 +16,7 @@ function Resume() {
  
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button variant="primary" target="_blank">
             <i className="fas fa-download">&nbsp;</i>Download CV
           </Button>
         </Row>
@@ -78,7 +78,7 @@ function Resume() {
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button variant="primary" target="_blank">
             <i className="fas fa-download">&nbsp;</i>Download CV
           </Button>
         </Row>

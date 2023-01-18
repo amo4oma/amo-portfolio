@@ -20,16 +20,32 @@ function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
-  function scrollHandler() {
-    if (window.scrollY >= 20) {
-      updateNavbar(true);
-    } else {
-      updateNavbar(false);
-    }
-  }
  
+ 
+  const scrollHandler = () => { 
+    // Detect scroll position
+    let viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+    if (viewportWidth > 1100) {
+        let scrollPosition = Math.round(window.scrollY);
 
-  window.addEventListener("scroll", scrollHandler);
+        if (scrollPosition > 100){
+          updateNavbar(true);
+        }
+        else {
+          updateNavbar(false);
+        }
+
+    } else {
+
+    }
+};
+
+// Check that window exists before accessing it
+if (typeof window !== 'undefined') {
+    // Run the checkHeader function every time you scroll
+    window.addEventListener('scroll', scrollHandler);
+}
+
 
   return (
     <>
