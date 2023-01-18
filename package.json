@@ -1,0 +1,43 @@
+{
+  "name": "amo-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "amo-portfolio",
+  "author": "Ahmed Obad",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop -p 3500",
+    "start": "gatsby develop -p 3500",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@anatoliygatt/dark-mode-toggle": "^1.0.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "autoprefixer": "10.4.5",
+    "babel-plugin-macros": "^3.1.0",
+    "bootstrap": "^5.2.3",
+    "gatsby": "^5.4.1",
+    "gatsby-image": "^3.11.0",
+    "gsap": "^3.11.4",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-devicon": "^0.1.9",
+    "react-dom": "^18.2.0",
+    "react-github-calendar": "^3.4.0",
+    "react-helmet": "^6.1.0",
+    "react-parallax-tilt": "^1.7.89",
+    "react-particles": "^2.7.1",
+    "react-tsparticles": "^2.7.1",
+    "sass": "^1.57.1",
+    "three": "^0.148.0",
+    "tsparticles": "^2.7.1",
+    "typewriter-effect": "^2.19.0",
+    "vanta": "^0.5.24"
+  }
+}
