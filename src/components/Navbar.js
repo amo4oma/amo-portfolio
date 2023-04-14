@@ -74,7 +74,7 @@ if (typeof window !== 'undefined') {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item className="me-5">
            
-              <Link to="/" onClick={() => updateExpanded(false)}><HomeIcon /> Home</Link> 
+              <Link to="https://ahmedobad.info/" onClick={() => updateExpanded(false)}><HomeIcon /> Home</Link> 
              
             </Nav.Item>
             <Nav.Item className="me-5">
